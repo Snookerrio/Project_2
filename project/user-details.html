@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+    body {
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+    #userdetailscontainer {
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    #userpostsbutton {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #userpostsbutton:hover {
+        background-color: #0056b3;
+    }
+
+
+    #userpostscontainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+
+    .post {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        flex: 17%;
+        box-sizing: border-box;
+    }
+
+
+    .post a {
+
+        margin-top: 10px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .post a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+</style>
+<body>
+<div id="userdetailscontainer"></div>
+<button id="userpostsbutton">Post of Current User</button>
+<div id="userpostscontainer"></div>
+<script src="user-details.js">
+
+</script>
+
+</body>
+</html>
